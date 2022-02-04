@@ -26,7 +26,6 @@
   padding: 14px 16px;
   border: solid rgb(111, 0, 255) 1px;
   
-  
 }
 .nav__link:hover:not(.nav__link_active){
   background-color: aqua;
