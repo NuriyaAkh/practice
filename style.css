@@ -2,21 +2,45 @@
     margin: 0 auto;
     background-color: #9ea2a7;
   font-family: Inter, sans-serif;
-  color: #ffffff;
+  color: black;
 }
-.nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    border: solid red 1px;
-}
+
 .header{
     display: flex;
     flex-direction: row;
-    
     border: solid rgb(0, 26, 255) 1px;
 }
 .name{
   border: solid rgb(0, 255, 76) 1px;
+}
+.nav__list{
+  list-style: none;
+  padding: 0;
+  margin:0;
+  display: flex;
+  
+}
+.nav__item{
+  display: flex;
+  text-align: center;
+  padding: 14px 16px;
+  border: solid rgb(111, 0, 255) 1px;
+  
+  
+}
+.nav__link:hover:not(.nav__link_active){
+  background-color: aqua;
+}
+.nav__link{
+  text-decoration: none;
+  color:black;
+  border: solid rgb(0, 255, 76) 1px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  
+}
+.nav__link_active{
+  
+  background-color: rgb(217, 255, 0);
 }
