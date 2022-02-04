@@ -1,0 +1,22 @@
+.page{
+    margin: 0 auto;
+    background-color: #9ea2a7;
+  font-family: Inter, sans-serif;
+  color: #ffffff;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: solid red 1px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    
+    border: solid rgb(0, 26, 255) 1px;
+}
+.name{
+  border: solid rgb(0, 255, 76) 1px;
+}
